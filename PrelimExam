@@ -1,0 +1,14 @@
+class student:
+
+   def init(self,name,Student_No,Age,School,Course) :
+    self.Name = Name 
+    self.Student_No = Student_No
+    self.Age = Age 
+    self.School = School 
+    self.Course = Course 
+
+   def self(self):
+     return f'Name: {self.Name}\nStudent Number: {self.Student_No}\nAge:{self.School}\nCourse: {self.Course}'
+
+Myself = student ("Cahanding, Mark Jason M." , "202114297", "19","Adamson University","BS in Computer Engineering")
+Myself.self()
